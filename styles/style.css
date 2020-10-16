@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Montserrat:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500&display=swap');
+
+html {
+    height: 100%;
+    width: 100%;
+}
+body {
+    background: url("/images/keyboardsMildBlur.jpg") no-repeat center center fixed;
+    text-align: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+}
+
+#main {
+    justify-content: center;
+    Width: 100%
+    height: 100% ;
+}
+
+#game {
+    margin: 0 auto;
+    background: rgb(193,158,122);
+    background: linear-gradient(90deg, rgb(182, 149, 115) 0%, rgb(231, 189, 147) 50%,rgb(182, 149, 115) 100%);
+    width: 600px;
+    height: 480px;
+    margin-top: 125px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px;
+}
+
+#title {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 60px;
+    padding-top: 50px;
+    text-shadow: 1.5px 1.5px 4px #000000; 
+}
+
+#instructions {
+    font-family: 'Roboto Mono', monospace;
+    text-align: left;
+    font-size: 30px;
+    text-indent: 25px;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 40px;
+}
+
+#input {
+    margin-top: 40px;
+    display: none;
+    text-align: center;
+}
+
+#inputDiv {
+    justify-content: center;
+    margin-top: -20px;
+}
+
+#score, #highScore {
+    display: none;
+
+}
+
+#result {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 40px;
+}
+
+#begin {
+    margin-top: 45px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    outline: none;
+    box-shadow: 1px 1px 5px black;
+    background-color: rgb(238, 238, 238);
+    
+}
+
+#begin:hover {
+    background-color: rgb(153, 212, 252);
+    cursor: pointer;
+    transition-delay: 10ms;
+}
+
+  #begin, #input {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 30px;
+}
+
+#score, #highScore, #timer {
+font-family: 'Archivo Black', sans-serif;
+font-size: 30px;
+color: #2a2430;
+
+}
+
+.swal-modal {
+    font-family: 'Roboto Mono', monospace;
+}
+
