@@ -18,8 +18,8 @@ body {
 
 #main {
     justify-content: center;
-    Width: 100%
-    height: 100% ;
+    Width: 100%;
+    height: 100%;
 }
 
 #game {
@@ -27,7 +27,7 @@ body {
     background: rgb(193,158,122);
     background: linear-gradient(90deg, rgb(182, 149, 115) 0%, rgb(231, 189, 147) 50%,rgb(182, 149, 115) 100%);
     width: 600px;
-    height: 480px;
+    height: 550px;
     margin-top: 125px;
     border-radius: 20px;
     box-shadow: 10px 10px 20px;
@@ -63,7 +63,7 @@ body {
     margin-top: -20px;
 }
 
-#score, #highScore {
+#score, #highScore, #timerTitle {
     display: none;
 
 }
@@ -73,7 +73,7 @@ body {
     font-size: 40px;
 }
 
-#begin {
+#beginButton {
     margin-top: 45px;
     margin-bottom: 30px;
     border-radius: 10px;
@@ -83,22 +83,21 @@ body {
     
 }
 
-#begin:hover {
+#beginButton:hover {
     background-color: rgb(153, 212, 252);
     cursor: pointer;
     transition-delay: 10ms;
 }
 
-  #begin, #input {
+  #beginButton, #input {
     font-family: 'Roboto Mono', monospace;
     font-size: 30px;
 }
 
-#score, #highScore, #timer {
+#score, #highScore, #timerTitle {
 font-family: 'Archivo Black', sans-serif;
 font-size: 30px;
-color: #2a2430;
-
+color: black;
 }
 
 .swal-modal {
