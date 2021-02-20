@@ -7,7 +7,7 @@ html {
     width: 100%;
 }
 body {
-    background: url("/images/keyboardsMildBlur.jpg") no-repeat center center fixed;
+    background: url("../images/keyboardsMildBlur.jpg") no-repeat center center fixed;
     text-align: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
