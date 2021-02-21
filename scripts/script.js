@@ -72,16 +72,12 @@ const reset = () => {
 
 //Pop-up message displays the player's score.
 const theEnd = () => {
-    let time = document.getElementById('timer');
     if (point > high) {
-        time.style.display = 'none';
         swal('Game Over', `You beat the high score! The new high score is ${point}!`).then(reset);
     } else if (point === 0) {
-        time.style.display = 'none';
         swal('Game Over', 'Zero points? Better luck next time!').then(reset);
     } else {
-        time.style.display = 'none';
-    swal('Game Over',` You got a score of ${point}. Well done!`).then(reset);
+        swal('Game Over',` You got a score of ${point}. Well done!`).then(reset);
     }
 }
 
@@ -106,10 +102,10 @@ const startTimer = (duration, display) => {
         minutes = minutes < 10 ? "0" + minutes : minutes;
         seconds = seconds < 10 ? "0" + seconds : seconds;
 
-        document.getElementById('timer').innerHTML = seconds;
+        display.innerHTML = minutes + ":" + seconds;
 
         if (--timer < 0) {
-            timer = duration;
+            display.innerHTML = "00:00";
         }
     }, 1000);
 }
