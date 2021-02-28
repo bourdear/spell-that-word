@@ -12,10 +12,11 @@ Spell That Word is a browser based typing game implemented with vanilla JavaScri
 * Click the "Begin" button.
 * Correctly spell the displayed word and hit "ENTER."
 * See if you can beat the high score before time runs out!
+* Click the link below for a live demo.
 
 &nbsp;
 
-## <div align="center">  [Live Demo](https://bourdear.github.io/spell-that-word/)</div>
+## <div align="center">  [Click Here to Play](https://bourdear.github.io/spell-that-word/)</div>
 
 &nbsp;
 
@@ -97,6 +98,6 @@ Spell That Word is a browser based typing game implemented with vanilla JavaScri
 
 &nbsp;
 
-![modal popup](/images/modal.png?raw=true)
+![modal popup](./images/modal.png?raw=true)
 
 &nbsp;
